@@ -6,7 +6,7 @@
   <li>Custom Background Color</li>
   <li>Can Replace fa icon with Image or html tags</li>
   <li>Navigate to Diffrent Sheet</li>
-  <li>Progress bar/li>
+  <li>Progress bar</li>
 </ol>
 <img src="./x-kpi-4.gif" alt="3nd Version">
 <hr>
