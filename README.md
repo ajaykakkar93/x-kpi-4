@@ -10,3 +10,8 @@
 </ol>
 <img src="./x-kpi-4.gif" alt="3nd Version">
 <hr>
+<h3>Bugs & UPDATES : </h3>
+<ol>
+  <li>Negative %  color change </li>
+  <li>Bugs in lib solved</li>
+</ol>
