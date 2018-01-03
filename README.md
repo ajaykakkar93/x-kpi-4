@@ -12,6 +12,6 @@
 <hr>
 <h3>Bugs & UPDATES : </h3>
 <ol>
-  <li>Negative %  color change </li>
+  <li>Negative %  color change (by : shamskhan)</li>
   <li>Bugs in lib solved</li>
 </ol>
