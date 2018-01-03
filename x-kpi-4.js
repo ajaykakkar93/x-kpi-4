@@ -1,7 +1,7 @@
 define(["qlik", './extUtils', "text!./style.css", 'ng!$q', 'ng!$http'],
     function(qlik, extUtils, css, $q, $http) {
 
-        var faUrl = extUtils.getBasePath() + '/extensions/x-kpi-3/lib/external/fontawesome/css/font-awesome.min.css';
+        var faUrl = extUtils.getBasePath() + '/extensions/x-kpi-4/lib/external/fontawesome/css/font-awesome.min.css';
         extUtils.addStyleLinkToHeader(faUrl, 'x-kpi__fontawesome');
 
         $("<style id='kip-4'>").html(css).appendTo("head");
@@ -152,6 +152,13 @@ define(["qlik", './extUtils', "text!./style.css", 'ng!$q', 'ng!$http'],
                                 label: "Progress Color",
                                 expression: "optional"
                             },
+							
+							 progresscolor2: {
+                                type: "string",
+                                ref: "progresscolor2",
+                                label: "Negitive Progress Color",
+                                expression: "optional"
+                            },
 
                             titlecss: {
                                 type: "string",
@@ -248,8 +255,38 @@ define(["qlik", './extUtils', "text!./style.css", 'ng!$q', 'ng!$http'],
                 html += '   <div class="card-footer">';
                 html += '   <div class="progress-info">';
                 html += '      <div class="progress">';
-                html += '        <span style="width: ' + Measure2 + '; background: ' + layout.progresscolor + ' !important; " class="progress-bar progress-bar-success purple-soft tooltip" title="' + Measure2 + '">';
-                html += '       <span class="tooltiptext">' + Measure2 + '</span> ';
+               	
+				
+				
+				var splittable = Measure2.split('%');
+					console.log(splittable[0]);
+				
+				if(splittable[0].indexOf("-") == -1){
+					
+					console.log('0');
+					
+				html += '        <span style="width: ' + Measure2 + '; background: ' + layout.progresscolor + ' !important; " class="progress-bar progress-bar-success purple-soft tooltip" title="' + Measure2 + '">';
+				
+				
+				}else{
+						console.log('1');
+					console.log(Measure2.split('-')[1]);
+
+					//var splittable2 = splittable[1].split('%');
+				//	console.log(splittable2[0]);
+				
+					html += '        <span style="width: ' + Measure2.split('-')[1] + '; background: ' + layout.progresscolor2 + ' !important; " class="progress-bar progress-bar-success purple-soft tooltip" title="' + Measure2 + '">';
+                
+				
+				}
+				
+				
+				
+				
+			//	html += '        <span style="width: ' + Measure2 + '; background: ' + layout.progresscolor + ' !important; " class="progress-bar progress-bar-success purple-soft tooltip" title="' + Measure2 + '">';
+                
+				
+				html += '       <span class="tooltiptext">' + Measure2 + '</span> ';
                 html += '        </span>';
                 html += '     </div>';
                 html += '      </div>';
@@ -281,8 +318,30 @@ define(["qlik", './extUtils', "text!./style.css", 'ng!$q', 'ng!$http'],
                 html2 += '   </div>';
                 html2 += '   <div class="progress-info">';
                 html2 += '       <div class="progress">';
-                html2 += '          <span style="width: ' + Measure2 + ';  background: ' + layout.progresscolor + ' !important;  " class="progress-bar progress-bar-success green-sharp">';
-                html2 += '              <span class="sr-only">76% progress</span>';
+                
+				
+				if(splittable[0].indexOf("-") == -1){
+					
+					console.log('0');
+					html2 += '          <span style="width: ' + Measure2 + ';  background: ' + layout.progresscolor + ' !important;  " class="progress-bar progress-bar-success green-sharp">';
+               
+				
+				}else{
+					console.log('1');
+					console.log(Measure2.split('-')[1]);
+					html2 += '          <span style="width: ' + Measure2.split('-')[1] + ';  background: ' + layout.progresscolor2 + ' !important;  " class="progress-bar progress-bar-success green-sharp">';
+               
+				
+				}
+				
+				
+				
+				//html2 += '          <span style="width: ' + Measure2 + ';  background: ' + layout.progresscolor + ' !important;  " class="progress-bar progress-bar-success green-sharp">';
+                
+				
+				
+				
+				html2 += '              <span class="sr-only">76% progress</span>';
                 html2 += '        </span>';
                 html2 += '      </div>';
                 html2 += '     <div class="status">';
