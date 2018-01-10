@@ -1,10 +1,3 @@
-<html>
-
-<head>
-
-</head>
-
-<body lang=EN-US>
 
 <div class=WordSection1>
 
@@ -45,87 +38,83 @@ style='font-size:14.0pt;line-height:107%'>6.<span style='font:7.0pt "Times New R
 <h2>Measures</h2>
 
 <p class=MsoNoSpacing style='margin-left:.5in;text-indent:-.25in'><span
-style='font-size:14.0pt;font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+style='font-size:14.0pt'>1.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;
 </span></span><span style='font-size:14.0pt'>1<sup>st</sup> measure value to be
 displayed</span></p>
 
 <p class=MsoNoSpacing style='margin-left:.5in;text-indent:-.25in'><span
-style='font-size:14.0pt;font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+style='font-size:14.0pt'>2.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;
 </span></span><span style='font-size:14.0pt'>2<sup>nd</sup> measure should be
 number format in %</span></p>
 
 <h2>Switch Layout</h2>
 
 <p class=MsoNoSpacing style='margin-left:.5in;text-indent:-.25in'><span
-style='font-size:14.0pt;font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+style='font-size:14.0pt'>1.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;
 </span></span><span style='font-size:14.0pt'>Switch layout: switches between
 layout</span></p>
 
 <h2>Custom Setting</h2>
 
 <p class=MsoNoSpacing style='margin-left:.5in;text-indent:-.25in'><span
-style='font-size:14.0pt;font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+style='font-size:14.0pt'>1.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;
 </span></span><span style='font-size:14.0pt'>Switch icon to text:  changes icon
 to text badge</span></p>
 
 <p class=MsoNoSpacing style='margin-left:.5in;text-indent:-.25in'><span
-style='font-size:14.0pt;font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+style='font-size:14.0pt'>2.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;
 </span></span><span style='font-size:14.0pt'>Background color: changes
 background color example: linear-gradient(60deg, #ef5350, #e53935);</span></p>
 
 <p class=MsoNoSpacing style='margin-left:.5in;text-indent:-.25in'><span
-style='font-size:14.0pt;font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+style='font-size:14.0pt'>3.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;
 </span></span><span style='font-size:14.0pt'>Title: add title</span></p>
 
 <p class=MsoNoSpacing style='margin-left:.5in;text-indent:-.25in'><span
-style='font-size:14.0pt;font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+style='font-size:14.0pt'>4.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;
 </span></span><span style='font-size:14.0pt'>Add HTML: can use html code in
 [Icon name]</span></p>
 
 <p class=MsoNoSpacing style='margin-left:.5in;text-indent:-.25in'><span
-style='font-size:14.0pt;font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+style='font-size:14.0pt'>5.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;
 </span></span><span style='font-size:14.0pt'>Icon Name: Add icon example: fa
 fa-user</span></p>
 
 <p class=MsoNoSpacing style='margin-left:.5in;text-indent:-.25in'><span
-style='font-size:14.0pt;font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+style='font-size:14.0pt'>6.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;
 </span></span><span style='font-size:14.0pt'>Footer Title: add footer title</span></p>
 
 <h2>Navigation</h2>
 
 <p class=MsoNoSpacing style='margin-left:.5in;text-indent:-.25in'><span
-style='font-size:14.0pt;font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+style='font-size:14.0pt'>1.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;
 </span></span><span style='font-size:14.0pt'>Select Sheet: navigate to sheet</span></p>
 
 <h2>Customization</h2>
 
 <p class=MsoNoSpacing style='margin-left:.5in;text-indent:-.25in'><span
-style='font-size:14.0pt;font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+style='font-size:14.0pt'>1.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;
 </span></span><span style='font-size:14.0pt'>Progress Color: progress bar color
 [positive]</span></p>
 
 <p class=MsoNoSpacing style='margin-left:.5in;text-indent:-.25in'><span
-style='font-size:14.0pt;font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+style='font-size:14.0pt'>2.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;
 </span></span><span style='font-size:14.0pt'>Negative Progress Color: progress
 bar color [Negative]</span></p>
 
 <p class=MsoNoSpacing style='margin-left:.5in;text-indent:-.25in'><span
-style='font-size:14.0pt;font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+style='font-size:14.0pt'>3.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;
 </span></span><span style='font-size:14.0pt'>Title css: Title css example:
 color:red; background-color:gray;</span></p>
 
 <p class=MsoNoSpacing style='margin-left:.5in;text-indent:-.25in'><span
-style='font-size:14.0pt;font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+style='font-size:14.0pt'>4.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;
 </span></span><span style='font-size:14.0pt'>Value css: Value css example:
 color:red; background-color:gray;</span></p>
 
 <p class=MsoNoSpacing style='margin-left:.5in;text-indent:-.25in'><span
-style='font-size:14.0pt;font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+style='font-size:14.0pt'>5.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;
 </span></span><span style='font-size:14.0pt'>Footer Title css: Footer css
 example: color:red; background-color:gray;</span></p>
 
 </div>
-
-</body>
-
-</html>
