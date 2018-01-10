@@ -1,5 +1,5 @@
 
-<div class=WordSection1>
+<div>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
 normal;background:white'><span style='font-size:30.0pt;color:#646464'>New
@@ -116,5 +116,7 @@ color:red; background-color:gray;</span></p>
 style='font-size:14.0pt'>5.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;
 </span></span><span style='font-size:14.0pt'>Footer Title css: Footer css
 example: color:red; background-color:gray;</span></p>
+<hr>
+<img src="./x-kpi-4.gif" alt="3nd Version">
 
 </div>
