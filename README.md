@@ -1,8 +1,6 @@
-<div>
-
-    <p>
-	New Custom KPI For Qlik Sense with 2 different layouts
-	</p>
+<p>
+        New Custom KPI For Qlik Sense with 2 different layouts
+    </p>
 
     <h2>Features</h2>
     <ul>
@@ -68,5 +66,3 @@
     </ul>
     <hr>
     <img src="./x-kpi-4.gif" alt="kpi-v-4">
-
-</div>
