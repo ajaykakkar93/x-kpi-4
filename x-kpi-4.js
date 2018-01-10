@@ -156,27 +156,27 @@ define(["qlik", './extUtils', "text!./style.css", 'ng!$q', 'ng!$http'],
 							 progresscolor2: {
                                 type: "string",
                                 ref: "progresscolor2",
-                                label: "Negitive Progress Color",
+                                label: "Negative Progress Color",
                                 expression: "optional"
                             },
 
                             titlecss: {
                                 type: "string",
                                 ref: "titlecss",
-                                label: "Title Css",
+                                label: "Title css",
                                 expression: "optional"
                             },
 
                             measurecss: {
                                 type: "string",
                                 ref: "measurecss",
-                                label: "Value Css",
+                                label: "Value css",
                                 expression: "optional"
                             },
                             footertitlecss: {
                                 type: "string",
                                 ref: "footertitlecss",
-                                label: "Footer Title Css",
+                                label: "Footer Title css",
                                 expression: "optional"
                             },
 
