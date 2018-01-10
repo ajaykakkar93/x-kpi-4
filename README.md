@@ -1,7 +1,6 @@
 <div>
 
-    <p style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
-normal;background:white'><span style='font-size:30.0pt;color:#646464'>New
+    <p><span style='color:#646464'>New
 Custom KPI For Qlik Sense with 2 different layouts</span></p>
 
     <h2>Features</h2>
