@@ -1,4 +1,4 @@
-<div class=WordSection1>
+<div>
 
     <p style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
 normal;background:white'><span style='font-size:30.0pt;color:#646464'>New
@@ -20,9 +20,6 @@ Custom KPI For Qlik Sense with 2 different layouts</span></p>
         <li><span>Progress bar</span></li>
 
     </ul>
-	
-	
-
 
     <h2>Measures</h2>
     <ul>
@@ -30,48 +27,46 @@ Custom KPI For Qlik Sense with 2 different layouts</span></p>
 
         <li><span>2<sup>nd</sup> measure should benumber format in %</span></li>
     </ul>
-	
-	
+
     <h2>Switch Layout</h2>
     <ul>
         <li><span>Switch layout: switches betweenlayout</span></li>
-	</ul>
-	
-	
-        <h2>Custom Setting</h2>
-        <ul>
-            <li><span>Switch icon to text:  changes iconto text badge</span></li>
+    </ul>
 
-            <li><span>Background color: changesbackground color example: linear-gradient(60deg, #ef5350, #e53935);</span></li>
+    <h2>Custom Setting</h2>
+    <ul>
+        <li><span>Switch icon to text:  changes iconto text badge</span></li>
 
-            <li><span>Title: add title</span></li>
+        <li><span>Background color: changesbackground color example: linear-gradient(60deg, #ef5350, #e53935);</span></li>
 
-            <li><span>Add HTML: can use html code in[Icon name]</span></li>
+        <li><span>Title: add title</span></li>
 
-            <li><span>Icon Name: Add icon example: fafa-user</span></li>
+        <li><span>Add HTML: can use html code in[Icon name]</span></li>
 
-            <li><span>Footer Title: add footer title</span></li>
+        <li><span>Icon Name: Add icon example: fafa-user</span></li>
 
-        </ul>
+        <li><span>Footer Title: add footer title</span></li>
 
-        <h2>Navigation</h2>
-        <ul>
-            <li><span>Select Sheet: navigate to sheet</span></li>
-        </ul>
+    </ul>
 
-        <h2>Customization</h2>
-        <ul>
-            <li><span>Progress Color: progress bar color[positive]</span></li>
+    <h2>Navigation</h2>
+    <ul>
+        <li><span>Select Sheet: navigate to sheet</span></li>
+    </ul>
 
-            <li><span>Negative Progress Color: progressbar color [Negative]</span></li>
+    <h2>Customization</h2>
+    <ul>
+        <li><span>Progress Color: progress bar color[positive]</span></li>
 
-            <li><span>Title css: Title css example:color:red; background-color:gray;</span></li>
+        <li><span>Negative Progress Color: progressbar color [Negative]</span></li>
 
-            <li><span>Value css: Value css example:color:red; background-color:gray;</span></li>
+        <li><span>Title css: Title css example:color:red; background-color:gray;</span></li>
 
-            <li><span>Footer Title css: Footer cssexample: color:red; background-color:gray;</span></li>
-        </ul>
-        <hr>
-        <img src="./x-kpi-4.gif" alt="3nd Version">
+        <li><span>Value css: Value css example:color:red; background-color:gray;</span></li>
+
+        <li><span>Footer Title css: Footer cssexample: color:red; background-color:gray;</span></li>
+    </ul>
+    <hr>
+    <img src="./x-kpi-4.gif" alt="kpi-v-4">
 
 </div>
