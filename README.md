@@ -1,122 +1,77 @@
+<div class=WordSection1>
 
-<div>
-
-<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+    <p style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
 normal;background:white'><span style='font-size:30.0pt;color:#646464'>New
 Custom KPI For Qlik Sense with 2 different layouts</span></p>
 
-<h2>Features</h2>
+    <h2>Features</h2>
+    <ul>
 
-<p class=MsoListParagraphCxSpFirst style='text-indent:-.25in'><span
-style='font-size:14.0pt;line-height:107%'>1.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><span style='font-size:14.0pt;line-height:107%'>Font Awesome
-icons Supported</span></p>
+        <li><span>Font Awesomeicons Supported</span></li>
 
-<p class=MsoListParagraphCxSpMiddle style='text-indent:-.25in'><span
-style='font-size:14.0pt;line-height:107%'>2.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><span style='font-size:14.0pt;line-height:107%'>Custom Title</span></p>
+        <li><span>Custom Title</span></li>
 
-<p class=MsoListParagraphCxSpMiddle style='text-indent:-.25in'><span
-style='font-size:14.0pt;line-height:107%'>3.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><span style='font-size:14.0pt;line-height:107%'>Custom Background
-Color</span></p>
+        <li><span>Custom BackgroundColor</span></li>
 
-<p class=MsoListParagraphCxSpMiddle style='text-indent:-.25in'><span
-style='font-size:14.0pt;line-height:107%'>4.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><span style='font-size:14.0pt;line-height:107%'>Can Replace fa
-icon with Image or html tags</span></p>
+        <li><span>Can Replace faicon with Image or html tags</span></li>
 
-<p class=MsoListParagraphCxSpMiddle style='text-indent:-.25in'><span
-style='font-size:14.0pt;line-height:107%'>5.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><span style='font-size:14.0pt;line-height:107%'>Navigate to
-Diffrent Sheet</span></p>
+        <li><span>Navigate toDiffrent Sheet</span></li>
 
-<p class=MsoListParagraphCxSpLast style='text-indent:-.25in'><span
-style='font-size:14.0pt;line-height:107%'>6.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><span style='font-size:14.0pt;line-height:107%'>Progress bar</span></p>
+        <li><span>Progress bar</span></li>
 
-<h2>Measures</h2>
+    </ul>
+	
+	
 
-<p class=MsoNoSpacing style='margin-left:.5in;text-indent:-.25in'><span
-style='font-size:14.0pt'>1.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><span style='font-size:14.0pt'>1<sup>st</sup> measure value to be
-displayed</span></p>
 
-<p class=MsoNoSpacing style='margin-left:.5in;text-indent:-.25in'><span
-style='font-size:14.0pt'>2.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><span style='font-size:14.0pt'>2<sup>nd</sup> measure should be
-number format in %</span></p>
+    <h2>Measures</h2>
+    <ul>
+        <li><span>1<sup>st</sup> measure value to bedisplayed</span></li>
 
-<h2>Switch Layout</h2>
+        <li><span>2<sup>nd</sup> measure should benumber format in %</span></li>
+    </ul>
+	
+	
+    <h2>Switch Layout</h2>
+    <ul>
+        <li><span>Switch layout: switches betweenlayout</span></li>
+	</ul>
+	
+	
+        <h2>Custom Setting</h2>
+        <ul>
+            <li><span>Switch icon to text:  changes iconto text badge</span></li>
 
-<p class=MsoNoSpacing style='margin-left:.5in;text-indent:-.25in'><span
-style='font-size:14.0pt'>1.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><span style='font-size:14.0pt'>Switch layout: switches between
-layout</span></p>
+            <li><span>Background color: changesbackground color example: linear-gradient(60deg, #ef5350, #e53935);</span></li>
 
-<h2>Custom Setting</h2>
+            <li><span>Title: add title</span></li>
 
-<p class=MsoNoSpacing style='margin-left:.5in;text-indent:-.25in'><span
-style='font-size:14.0pt'>1.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><span style='font-size:14.0pt'>Switch icon to text:  changes icon
-to text badge</span></p>
+            <li><span>Add HTML: can use html code in[Icon name]</span></li>
 
-<p class=MsoNoSpacing style='margin-left:.5in;text-indent:-.25in'><span
-style='font-size:14.0pt'>2.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><span style='font-size:14.0pt'>Background color: changes
-background color example: linear-gradient(60deg, #ef5350, #e53935);</span></p>
+            <li><span>Icon Name: Add icon example: fafa-user</span></li>
 
-<p class=MsoNoSpacing style='margin-left:.5in;text-indent:-.25in'><span
-style='font-size:14.0pt'>3.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><span style='font-size:14.0pt'>Title: add title</span></p>
+            <li><span>Footer Title: add footer title</span></li>
 
-<p class=MsoNoSpacing style='margin-left:.5in;text-indent:-.25in'><span
-style='font-size:14.0pt'>4.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><span style='font-size:14.0pt'>Add HTML: can use html code in
-[Icon name]</span></p>
+        </ul>
 
-<p class=MsoNoSpacing style='margin-left:.5in;text-indent:-.25in'><span
-style='font-size:14.0pt'>5.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><span style='font-size:14.0pt'>Icon Name: Add icon example: fa
-fa-user</span></p>
+        <h2>Navigation</h2>
+        <ul>
+            <li><span>Select Sheet: navigate to sheet</span></li>
+        </ul>
 
-<p class=MsoNoSpacing style='margin-left:.5in;text-indent:-.25in'><span
-style='font-size:14.0pt'>6.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><span style='font-size:14.0pt'>Footer Title: add footer title</span></p>
+        <h2>Customization</h2>
+        <ul>
+            <li><span>Progress Color: progress bar color[positive]</span></li>
 
-<h2>Navigation</h2>
+            <li><span>Negative Progress Color: progressbar color [Negative]</span></li>
 
-<p class=MsoNoSpacing style='margin-left:.5in;text-indent:-.25in'><span
-style='font-size:14.0pt'>1.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><span style='font-size:14.0pt'>Select Sheet: navigate to sheet</span></p>
+            <li><span>Title css: Title css example:color:red; background-color:gray;</span></li>
 
-<h2>Customization</h2>
+            <li><span>Value css: Value css example:color:red; background-color:gray;</span></li>
 
-<p class=MsoNoSpacing style='margin-left:.5in;text-indent:-.25in'><span
-style='font-size:14.0pt'>1.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><span style='font-size:14.0pt'>Progress Color: progress bar color
-[positive]</span></p>
-
-<p class=MsoNoSpacing style='margin-left:.5in;text-indent:-.25in'><span
-style='font-size:14.0pt'>2.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><span style='font-size:14.0pt'>Negative Progress Color: progress
-bar color [Negative]</span></p>
-
-<p class=MsoNoSpacing style='margin-left:.5in;text-indent:-.25in'><span
-style='font-size:14.0pt'>3.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><span style='font-size:14.0pt'>Title css: Title css example:
-color:red; background-color:gray;</span></p>
-
-<p class=MsoNoSpacing style='margin-left:.5in;text-indent:-.25in'><span
-style='font-size:14.0pt'>4.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><span style='font-size:14.0pt'>Value css: Value css example:
-color:red; background-color:gray;</span></p>
-
-<p class=MsoNoSpacing style='margin-left:.5in;text-indent:-.25in'><span
-style='font-size:14.0pt'>5.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><span style='font-size:14.0pt'>Footer Title css: Footer css
-example: color:red; background-color:gray;</span></p>
-<hr>
-<img src="./x-kpi-4.gif" alt="3nd Version">
+            <li><span>Footer Title css: Footer cssexample: color:red; background-color:gray;</span></li>
+        </ul>
+        <hr>
+        <img src="./x-kpi-4.gif" alt="3nd Version">
 
 </div>
