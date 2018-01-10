@@ -12,7 +12,7 @@
     </ul>
     <h2>Measures</h2>
     <ul>
-        <li>1<sup>st</sup> measure value to bedisplayed</li>
+        <li>1<sup>st</sup> measure value to be displayed</li>
         <li>2<sup>nd</sup> measure should benumber format in %</li>
     </ul>
     <h2>Switch Layout</h2>
@@ -22,7 +22,7 @@
     <h2>Custom Setting</h2>
     <ul>
         <li>Switch icon to text:  changes iconto text badge</li>
-        <li>Background color: changesbackground color example: linear-gradient(60deg, #ef5350, #e53935);</li>
+        <li>Background color: changes background color example: linear-gradient(60deg, #ef5350, #e53935);</li>
         <li>Title: add title</li>
         <li>Add HTML: can use html code in[Icon name]</li>
         <li>Icon Name: Add icon example: fafa-user</li>
