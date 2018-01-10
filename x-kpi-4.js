@@ -1,17 +1,11 @@
 define(["qlik", './extUtils', "text!./style.css", 'ng!$q', 'ng!$http'],
     function(qlik, extUtils, css, $q, $http) {
-
         var faUrl = extUtils.getBasePath() + '/extensions/x-kpi-4/lib/external/fontawesome/css/font-awesome.min.css';
         extUtils.addStyleLinkToHeader(faUrl, 'x-kpi__fontawesome');
-
         $("<style id='kip-4'>").html(css).appendTo("head");
-
         var app = qlik.currApp();
-
         var getSheetList = function() {
-
             var defer = $q.defer();
-
             app.getAppObjectList(function(data) {
                 var sheets = [];
                 var sortedData = _.sortBy(data.qAppObjectList.qItems, function(item) {
@@ -28,21 +22,16 @@ define(["qlik", './extUtils', "text!./style.css", 'ng!$q', 'ng!$http'],
 
             return defer.promise;
         };
-
         return {
-
             definition: {
                 type: "items",
                 component: "accordion",
                 items: {
-
                     measures: {
                         uses: "measures",
                         min: 2,
                         max: 2
-
                     },
-
                     switchlayout: {
                         type: "boolean",
                         component: "switch",
@@ -57,14 +46,9 @@ define(["qlik", './extUtils', "text!./style.css", 'ng!$q', 'ng!$http'],
                         }],
                         defaultValue: false
                     },
-
-
-
                     custom: {
                         label: 'Custom Settings',
                         items: {
-
-
                             lay1switch: {
                                 type: "boolean",
                                 component: "switch",
@@ -121,8 +105,6 @@ define(["qlik", './extUtils', "text!./style.css", 'ng!$q', 'ng!$http'],
                                 label: "Footer Title",
                                 expression: "optional"
                             },
-
-
                         }
                     },
                     navtosheet: {
@@ -141,8 +123,6 @@ define(["qlik", './extUtils', "text!./style.css", 'ng!$q', 'ng!$http'],
                             },
                         }
                     },
-
-
                     visual: {
                         label: "Customization",
                         items: {
@@ -152,21 +132,19 @@ define(["qlik", './extUtils', "text!./style.css", 'ng!$q', 'ng!$http'],
                                 label: "Progress Color",
                                 expression: "optional"
                             },
-							
-							 progresscolor2: {
+
+                            progresscolor2: {
                                 type: "string",
                                 ref: "progresscolor2",
                                 label: "Negative Progress Color",
                                 expression: "optional"
                             },
-
                             titlecss: {
                                 type: "string",
                                 ref: "titlecss",
                                 label: "Title css",
                                 expression: "optional"
                             },
-
                             measurecss: {
                                 type: "string",
                                 ref: "measurecss",
@@ -179,15 +157,11 @@ define(["qlik", './extUtils', "text!./style.css", 'ng!$q', 'ng!$http'],
                                 label: "Footer Title css",
                                 expression: "optional"
                             },
-
                             // end
                         }
                     },
-
-
                     settings: {
                         uses: "settings",
-
                     }
                 }
             },
@@ -219,20 +193,17 @@ define(["qlik", './extUtils', "text!./style.css", 'ng!$q', 'ng!$http'],
                 html += '	</div>';
 
                 if (lay1switch) {
-				
                     html += '  <div class="card-header" style="   padding-top: 12px;  ">';
                     html += '  <div class="outerTag" style="  background: ' + layout.bgcolor + ' !important; color:#fff; "> ' + Measure2 + '';
-				
+
                     if (layout.ashtml1) {
                         html += layout.iconname;
                     } else {
                         html += '<i class="' + layout.iconname + '" aria-hidden="true"></i>';
                     }
-				
+
                     html += '  </div>';
                     html += '    </div>';
-
-
                 } else {
 
 
@@ -245,7 +216,6 @@ define(["qlik", './extUtils', "text!./style.css", 'ng!$q', 'ng!$http'],
                     }
 
                     html += '  </div>';
-
                 }
 
                 html += '  <div class="card-content">';
@@ -255,93 +225,74 @@ define(["qlik", './extUtils', "text!./style.css", 'ng!$q', 'ng!$http'],
                 html += '   <div class="card-footer">';
                 html += '   <div class="progress-info">';
                 html += '      <div class="progress">';
-               	
-				
-				
-				var splittable = Measure2.split('%');
-					console.log(splittable[0]);
-				
-				if(splittable[0].indexOf("-") == -1){
-					
-					console.log('0');
-					
-				html += '        <span style="width: ' + Measure2 + '; background: ' + layout.progresscolor + ' !important; " class="progress-bar progress-bar-success purple-soft tooltip" title="' + Measure2 + '">';
-				
-				
-				}else{
-						console.log('1');
-					console.log(Measure2.split('-')[1]);
 
-					//var splittable2 = splittable[1].split('%');
-				//	console.log(splittable2[0]);
-				
-					html += '        <span style="width: ' + Measure2.split('-')[1] + '; background: ' + layout.progresscolor2 + ' !important; " class="progress-bar progress-bar-success purple-soft tooltip" title="' + Measure2 + '">';
-                
-				
-				}
-				
-				
-				
-				
-			//	html += '        <span style="width: ' + Measure2 + '; background: ' + layout.progresscolor + ' !important; " class="progress-bar progress-bar-success purple-soft tooltip" title="' + Measure2 + '">';
-                
-				
-				html += '       <span class="tooltiptext">' + Measure2 + '</span> ';
+                var splittable = Measure2.split('%');
+                console.log(splittable[0]);
+
+                if (splittable[0].indexOf("-") == -1) {
+
+                    console.log('0');
+
+                    html += '        <span style="width: ' + Measure2 + '; background: ' + layout.progresscolor + ' !important; " class="progress-bar progress-bar-success purple-soft tooltip" title="' + Measure2 + '">';
+
+                } else {
+                    console.log('1');
+                    console.log(Measure2.split('-')[1]);
+
+                    //var splittable2 = splittable[1].split('%');
+                    //	console.log(splittable2[0]);
+
+                    html += '        <span style="width: ' + Measure2.split('-')[1] + '; background: ' + layout.progresscolor2 + ' !important; " class="progress-bar progress-bar-success purple-soft tooltip" title="' + Measure2 + '">';
+
+
+                }
+
+                //	html += '        <span style="width: ' + Measure2 + '; background: ' + layout.progresscolor + ' !important; " class="progress-bar progress-bar-success purple-soft tooltip" title="' + Measure2 + '">';
+
+
+                html += '       <span class="tooltiptext">' + Measure2 + '</span> ';
                 html += '        </span>';
                 html += '     </div>';
                 html += '      </div>';
                 html += ' </div>';
                 html += '  </div>';
-
-// ui 2
-
+                // ui 2
                 html2 += '  	<div class="dashboard-stat2 "  id="gotosheet_' + layout.gotosheet + '">  ';
                 html2 += '     <div class="display">';
                 html2 += '       <div class="number">';
                 html2 += '         <h3 class="font-green-sharp">';
                 html2 += '             <span data-counter="counterup" style="' + measurecss + '">' + Measure + '</span>';
-
                 //  html2 += '             <small class="font-green-sharp">$</small>';
-
                 html2 += '        </h3>';
-                html2 += '         <small  style="' + titlecss + '" style=" ' +titlecss + ' !important; " >' + layout.title + '</small>';
+                html2 += '         <small  style="' + titlecss + '" style=" ' + titlecss + ' !important; " >' + layout.title + '</small>';
                 html2 += '      </div>';
                 html2 += '     <div class="icon">';
-				
+
                 if (layout.ashtml1) {
                     html2 += layout.iconname;
                 } else {
                     html2 += '<i class="' + layout.iconname + '" aria-hidden="true" style=" ' + layout.bgcolor + '"></i>';
                 }
-				
+
                 html2 += '     </div>';
                 html2 += '   </div>';
                 html2 += '   <div class="progress-info">';
                 html2 += '       <div class="progress">';
-                
-				
-				if(splittable[0].indexOf("-") == -1){
-					
-					console.log('0');
-					html2 += '          <span style="width: ' + Measure2 + ';  background: ' + layout.progresscolor + ' !important;  " class="progress-bar progress-bar-success green-sharp">';
-               
-				
-				}else{
-					console.log('1');
-					console.log(Measure2.split('-')[1]);
-					html2 += '          <span style="width: ' + Measure2.split('-')[1] + ';  background: ' + layout.progresscolor2 + ' !important;  " class="progress-bar progress-bar-success green-sharp">';
-               
-				
-				}
-				
-				
-				
-				//html2 += '          <span style="width: ' + Measure2 + ';  background: ' + layout.progresscolor + ' !important;  " class="progress-bar progress-bar-success green-sharp">';
-                
-				
-				
-				
-				html2 += '              <span class="sr-only">76% progress</span>';
+
+                if (splittable[0].indexOf("-") == -1) {
+
+                    console.log('0');
+                    html2 += '          <span style="width: ' + Measure2 + ';  background: ' + layout.progresscolor + ' !important;  " class="progress-bar progress-bar-success green-sharp">';
+
+                } else {
+                    console.log('1');
+                    console.log(Measure2.split('-')[1]);
+                    html2 += '          <span style="width: ' + Measure2.split('-')[1] + ';  background: ' + layout.progresscolor2 + ' !important;  " class="progress-bar progress-bar-success green-sharp">';
+                }
+
+                //html2 += '          <span style="width: ' + Measure2 + ';  background: ' + layout.progresscolor + ' !important;  " class="progress-bar progress-bar-success green-sharp">';
+
+                html2 += '              <span class="sr-only">76% progress</span>';
                 html2 += '        </span>';
                 html2 += '      </div>';
                 html2 += '     <div class="status">';
@@ -350,8 +301,6 @@ define(["qlik", './extUtils', "text!./style.css", 'ng!$q', 'ng!$http'],
                 html2 += '     </div>';
                 html2 += '     </div>';
                 html2 += '    </div>';
-
-
 
                 if (switchlayout) {
                     $element.html(html);
@@ -369,8 +318,7 @@ define(["qlik", './extUtils', "text!./style.css", 'ng!$q', 'ng!$http'],
                 };
 
                 $('.qv-object-x-kpi-4 .qv-object-header').hide();
-
-
+                // end
             }
         };
 
