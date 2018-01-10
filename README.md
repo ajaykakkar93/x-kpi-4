@@ -1,6 +1,6 @@
 <div>
 
-    <p style="color:#646464">New
+    <p >New
 Custom KPI For Qlik Sense with 2 different layouts
     </p>
 
