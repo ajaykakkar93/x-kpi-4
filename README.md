@@ -1,5 +1,5 @@
 <p>
-        New Custom KPI For Qlik Sense with 2 different & layouts
+       New Custom KPI For Qlik Sense with 2 different & layouts
     </p>
     <h2>Features</h2>
     <ul>
